@@ -8,6 +8,6 @@ Get Start
 ```
 $ npm install
 $ npm run dev # static server
-$ npm start # start up nw app
+$ npm start # start up nw.js app
 ```
 
