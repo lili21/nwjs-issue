@@ -1,0 +1,28 @@
+{
+  "name": "nw-html5mode-issue",
+  "main": "http://localhost:8283",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nw .",
+    "dev": "node src/dev.js"
+  },
+  "window": {
+    "title": "nw.js issue exp",
+    "width": 1100,
+    "height": 700,
+    "position": "center",
+    "fullscreen": false
+  },
+  "node-remote": "<all_urls>",
+  "author": "li.li",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "nw": "^0.14.7-sdk"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.2.18"
+  }
+}
