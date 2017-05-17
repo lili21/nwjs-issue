@@ -1,4 +1,4 @@
-nw.js issue with angular and html5Mode set as true
+nw.js issues code base.
 --------------------------------------------------
 > based on nw.js@0.14.7-sdk, angular@1.5.7, angular-ui-router@0.2.18
 
