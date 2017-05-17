@@ -1,5 +1,5 @@
 {
-  "name": "nw-html5mode-issue",
+  "name": "nw-issue",
   "main": "http://localhost:8283",
   "version": "1.0.0",
   "description": "",
@@ -14,6 +14,7 @@
     "position": "center",
     "fullscreen": false
   },
+  "inject_js_end": "src/inject-menu.js",
   "node-remote": "<all_urls>",
   "author": "li.li",
   "license": "ISC",

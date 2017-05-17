@@ -1,6 +1,6 @@
 angular.module('app', [ 'ui.router' ])
   .config(function ($urlRouterProvider, $locationProvider) {
-    $urlRouterProvider.otherwise('/app')
+    $urlRouterProvider.otherwise('/app/index')
     $locationProvider.html5Mode({
       enabled: true,
       requireBase: false
