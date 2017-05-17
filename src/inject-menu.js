@@ -1,14 +1,14 @@
 var win = nw.Window.get()
 var menu = new nw.Menu()
 
+// menu.append(new nw.MenuItem({
+//   label: '',
+//   click: function () {
+//     history.back()
+//   }
+// }))
 menu.append(new nw.MenuItem({
-  label: '返回',
-  click: function () {
-    history.back()
-  }
-}))
-menu.append(new nw.MenuItem({
-  label: '刷新',
+  label: 'Reload',
   click: function () {
     win.reload()
   }
