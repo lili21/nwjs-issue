@@ -1,6 +1,6 @@
 {
   "name": "nw-issue",
-  "main": "http://localhost:8283",
+  "main": "https://google.com",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -14,16 +14,11 @@
     "position": "center",
     "fullscreen": false
   },
-  "inject_js_end": "src/inject-menu.js",
+  "bg-script": "src/tray.js",
   "node-remote": "<all_urls>",
   "author": "li.li",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.14.0",
-    "nw": "^0.14.7-sdk"
-  },
-  "dependencies": {
-    "angular": "^1.5.7",
-    "angular-ui-router": "^0.2.18"
+    "nw": "0.14.7-sdk"
   }
 }
